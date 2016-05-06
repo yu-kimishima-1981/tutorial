@@ -1,8 +1,9 @@
 #include hoge
 void main(void)
 {
-	int a = 5;
+	int a = 3;
 	int b = 8;
-	printf("%d\n",a+b);
+	int c = func(a,b);
+	printf("%d\n",c);
 	return;
 }
